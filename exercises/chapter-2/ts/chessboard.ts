@@ -2,7 +2,7 @@
 const createChessBoard = function(width:number, height:number) {
     let j:string, 
         i:number,
-        calcSpaceNeeded = width - 1; // this is for the total space needed for no. of # inputed
+        calcSpaceNeeded = width - 1; // this is for the total space needed for no. of # inputted
     // loop for the height  
     for (i = 1; i <= height; i++) {
         // loop for the width 
