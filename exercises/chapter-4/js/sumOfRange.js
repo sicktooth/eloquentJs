@@ -1,4 +1,4 @@
-const range = (start, end, step = -1)=> {
+export default function range(start, end, step = -1) {
     let array = [];
     step = Math.abs(step)
     if (start > end) {
@@ -27,4 +27,3 @@ const sum = (numbers)=> {
      return results;
     
 }
-console.log(sum(range(1,10,2)))
