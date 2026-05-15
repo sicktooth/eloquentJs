@@ -1,3 +1,4 @@
+const SCRIPTS = require("./scripts");
 function repeat(n, action) {
   for (let i = 0; i < n; i++) {
     action(i);
@@ -14,6 +15,7 @@ function characterScript(code) {
   }
   return null;
 }
+
 
 function countBy(items, groupName) {
   let counts = [];
